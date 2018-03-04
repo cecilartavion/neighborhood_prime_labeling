@@ -1,4 +1,4 @@
-# neighborhood_prime_labeling
+# Neighborhood Prime Labeling
 This repository contains code for anything related to neighborhood-prime labeling.
 
 The python file check_npl.py will go through all of the graphs provided to it and determine if their are neighborhood-prime. 
