@@ -1,7 +1,7 @@
 # Neighborhood Prime Labeling
 This repository contains code for anything related to neighborhood-prime labeling.
 
-The python file check_npl.py will go through all of the graphs provided to it and determine if their are neighborhood-prime. 
+The python file check_npl.py will go through all of the graphs provided to it and determine if their are neighborhood-prime. Currently, the program is set up to only go through the graphs with order between 2 and 9 inclusive. 
 The graphs currently provided in this file are from Brendan McKay's website http://users.cecs.anu.edu.au/~bdm/data/graphs.html.
 
 Here is a description of the graphs in this folder:
