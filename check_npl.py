@@ -50,6 +50,7 @@ def gen_labelings(n):
         number of vertices in the graph
 
     RETURNS:
+    ----------
     lst: list of tuples instance
         list of all permutations of the number from 1 to n
     '''
@@ -68,6 +69,7 @@ def is_np_labeling(G,labeling):
         full graph
 
     RETURNS:
+    ----------
     found_label: True or False
                 Boolean returned depending on whether the labeling
                 works or not. 
@@ -104,7 +106,7 @@ if __name__ == "__main__":
             # the graph, the number of vertices, and the number of edges.
             if not one_good_lst:
                 print('Graph with {} vertices, {} edges, and no neighborhood-prime labeling.'
-                      .format(len(g.edges()),len(g.nodes())))
+                      .format(len(g.nodes()),len(g.edges())))
                 fig, ax = plt.subplots(1,1)
                 nx.draw_networkx(g, with_labels=True, node_size = 200, node_color='orange',font_size=10,ax=ax)
                 plt.axis('off')
