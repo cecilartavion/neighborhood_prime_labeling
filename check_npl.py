@@ -108,7 +108,7 @@ if __name__ == "__main__":
                 print('Graph with {} vertices, {} edges, and no neighborhood-prime labeling.'
                       .format(len(g.nodes()),len(g.edges())))
                 fig, ax = plt.subplots(1,1)
-                nx.draw_networkx(g, with_labels=True, node_size = 200, node_color='orange',font_size=10,ax=ax)
+                nx.draw_networkx(g, with_labels=True, node_size = 50, node_color='orange',font_size=10,ax=ax)
                 plt.axis('off')
                 plt.show()
 
