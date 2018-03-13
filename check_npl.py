@@ -93,7 +93,7 @@ if __name__ == "__main__":
         # Grab the list of graphs with N vertices.
         g1 = nx.read_graph6("graph{}.g6".format(N))
         # Grab all the possible labelings on N vertices.
-        lsts = gen_labelings(N)
+        lsts = gen_labelings(len(g1[0].nodes()))
         # Run this next for loop for each graph in g1.
         for g in g1:
             one_good_lst = False
