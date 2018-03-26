@@ -4,6 +4,8 @@ This repository contains code for anything related to neighborhood-prime labelin
 The python file check_npl.py will go through all of the graphs provided to it and determine if their are neighborhood-prime. Currently, the program is set up to only go through the graphs with order between 2 and 9 inclusive. 
 The graphs currently provided in this file are from Brendan McKay's website http://users.cecs.anu.edu.au/~bdm/data/graphs.html.
 
+The python file check_npl_independence.py puts a labeling of even numbers from 2 to n or n-1 on the vertices to check if there exists a labeling so that the neighborhood of each vertex has at least one vertex with no label. This gives evidence for the graph being a neighborhood-prime labeling.
+
 Here is a description of the graphs in this folder:
 
 graph2.g6 (all simple graphs on 2 vertices)
